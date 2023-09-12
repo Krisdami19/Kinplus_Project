@@ -1,0 +1,453 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Outfit", sans-serif;
+}
+
+#logo {
+  width: 170px;
+}
+
+.head-flex{
+  display: flex;
+}
+
+#id-div{
+  padding-left: 780px;
+  padding-top: 22px;
+}
+
+.style-span{
+  text-decoration: none;
+  padding-top: 12px;
+  font-family: 'poppins', sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.weather-header {
+  display: flex;
+  color: rgb(0, 0, 0);
+  background-size: contain;
+  background-color: rgb(255, 255, 255);
+}
+
+.search-div{
+  background-color: rgb(42, 115, 252);
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+.weather-style{
+  font-size: 33px;
+  padding-top: 15px;
+}
+
+.search-box {
+  width: 600px;
+  margin-left: 30px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  border-bottom: 1px solid black;
+  font-size: 20px;
+  font-weight: 300;
+  transition: 0.2s ease-out;
+  color: #eeeeee;
+}
+.search-box:focus {
+  background-color: rgb(201, 200, 200);
+  color: rgb(29, 29, 29);
+}
+.search-box:hover{
+  box-shadow: 0px 2px 6px  black;
+}
+
+#main > div{
+  background-size: cover;
+}
+
+#main p{
+  color: white;
+  padding-left: 150px;
+  padding-top: 50px;
+  font-size: 32px;
+}
+
+.first-img{
+  padding-left: 300px;
+  padding-bottom: 50px;
+}
+
+#weather-display{
+  background-image: url(./engin-akyurt-3ihnKT5apmg-unsplash.jpg);
+  height: 500px;
+}
+
+.location{
+  padding-top: 8px;
+}
+
+.location .city {
+  color: #eeeeee;
+  font-size: 44px;
+  font-weight: 800;
+  margin-bottom: 5px;
+  margin-top: 25px;
+  margin-left: 50px;
+}
+.location .date {
+  color: #eeeeee;
+  font-size: 24px;
+  margin-left: 50px;
+}
+.current .temp {
+  color: #eeeeee;
+  font-size: 88px;
+  font-weight: 800;
+  margin-left: 50px ;
+  text-shadow: 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.current .temp span {
+  font-weight: 200;
+}
+.current .weather {
+  color: #eeeeee;
+  font-size: 32px;
+  padding-left: 50px;
+  font-weight: 700;
+  font-style: italic;
+  margin-bottom: 15px;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+.current .hi-low {
+  color: #eeeeee;
+  font-size: 32px;
+  font-weight: 500;
+  padding-left: 50px;
+  text-shadow: 0 3px rgba(0, 0, 0, 0.4);
+}
+
+#statement{
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  color: rgb(255, 255, 255);
+  font-size: 32px;
+  padding-left: 50px;
+  padding-top: 32px;
+  text-shadow: 0px 4px 6px black;
+}
+
+/* Contact us section */
+
+
+h2{
+  text-align: center;
+}
+#firstdiv{
+  background-color: rgb(152, 165, 192);
+  padding: 43px;
+}
+
+.contactdiv{
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0px 2px 5px black;
+  margin: auto;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 800px;
+  text-align: center;
+  padding-top: 70px;
+}
+
+#contactdiv > .formstyle{
+  margin: 8px;
+  padding: 8px;
+  width: 318px;
+}
+
+.formstyle{
+  margin-top: 22px;
+  padding: 8px;
+  width: 318px;
+}
+#inputcontact{
+  width: 100px;
+  padding: 8px;
+  border: none;
+  background-color: #31aae2;
+  color: white;
+  box-shadow: 0px 1px 4px black;
+  margin-bottom: 28px;
+  margin-top: 12px;
+}
+
+#footercontact{
+  background-color: rgb(112, 111, 111);
+  color: white;
+}
+
+#footercontact p{
+  font-size: large;
+  text-align: left;
+  padding-left: 150px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+
+#logostyle{
+  display: flex;
+  justify-content: center;
+  color: rgb(238, 231, 231);
+}
+
+#h2{
+  font-size: 33px;
+  padding-top: 15px;
+}
+
+#span{
+  padding-bottom: 14px;
+  padding-top: 14px;
+  padding-left: 140px;
+}
+
+#span  a{
+  text-decoration: none;
+}
+
+/* signup section */
+
+.signupb{
+  display: flex;
+  background-color: rgb(223, 226, 228);
+  padding: 42px;
+  box-shadow: 0px 0px 5px black;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+
+.signupb > div{
+  padding-left: 120px;
+}
+
+.inputmail{
+  padding: 8px;
+  width: 300px;
+  margin-top: 18px;
+  border-radius: 6px;
+  border-color: rgb(250, 249, 249);
+}
+
+#submit{
+  padding: 8px;
+  width: 300px;
+  margin-top: 18px;
+  border-radius: 6px;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+/* About section */
+
+.aboutdiv{
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0px 1px 5px black;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 180px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+.aboutdiv h1{
+  text-align: center;
+}
+
+.aboutdiv h2{
+  text-align: left;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.aboutdiv p{
+  margin-top: 30px;
+}
+
+#index-img{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 30px;
+  padding: 30px;
+  letter-spacing: 0.2px;
+  line-height: 22px;
+}
+
+#index-img div img{
+  width: 100%;
+}
+
+#index-img a{
+  text-decoration: none;
+  color: black;
+}
+
+#index-img a:hover{
+  text-decoration: underline;
+}
+
+/* Responsive for mobile screen */
+
+@media (max-width: 480px){
+.weather-style {
+    font-size: 33px;
+    padding-top: 30px;
+  }
+
+    .search-box {
+      width: 400px;
+      margin-left: 15px;
+      margin-top: 10px;
+      margin-bottom: 15px;
+      padding: 10px 15px;
+      border: none;
+      outline: none;
+      border-radius: 10px;
+      border-bottom: 1px solid black;
+      font-size: 20px;
+      font-weight: 300;
+      transition: 0.2s ease-out;
+      color: #eeeeee;
+    }
+
+    .first-img {
+      padding-left: 110px;
+      padding-top: 20px;
+      padding-bottom: 50px;
+      width: 330px;
+    }
+
+    #main p {
+      color: white;
+      padding-left: 10px;
+      padding-top: 30px;
+      font-size: 24px;
+    }
+
+    #index-img {
+      display: block;
+      /* letter-spacing: 0.2px; */
+      line-height: 20px;
+      margin: 0;
+    }
+  
+    #index-img div img{
+          width: 230px;
+     }
+     
+    #index-img a {
+      text-decoration: none;
+      color: black;
+      font-size: 20px;
+    }
+
+    #index-img div{
+      display: flex;
+      margin-bottom: 20px;
+    }
+
+    #footercontact p {
+      text-align: left;
+      padding-left: 60px;
+      letter-spacing: 0.2px;
+      line-height: 24px;
+    }
+
+    #span {
+      padding-bottom: 14px;
+      padding-top: 14px;
+      padding-left: 50px;
+    }
+        #logo {
+          width: 140px;
+        }
+#h2 {
+  font-size: 27px;
+  padding-top: 15px;
+}
+    #logostyle{
+  display: flex;
+  padding-left: 38px;
+  justify-content: left;
+  color: rgb(238, 231, 231);
+  }
+
+    .aboutdiv{
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0px 1px 5px black;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  text-align: left;
+  padding-top: 25px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  letter-spacing: 0.2px;
+  line-height: 28px;
+}
+
+.signupb {
+  display: block;
+  background-color: rgb(223, 226, 228);
+  padding-top: 36px;
+  padding-left: 1px;
+  box-shadow: 0px 0px 5px black;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  letter-spacing: 0.2px;
+  line-height: 24px;
+}
+.signupb>div {
+  padding-left: 50px;
+}
+.inputmail {
+  padding: 8px;
+  width: 180px;
+  margin-top: 18px;
+  border-radius: 6px;
+  border-color: rgb(250, 249, 249);
+}
+
+#submit {
+  padding: 8px;
+  width: 180px;
+  margin-top: 18px;
+  border-radius: 6px;
+  background-color: rgb(36, 35, 35);
+  color: white;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+
+.contactdiv {
+  background-color: rgb(250, 250, 250);
+  box-shadow: 0px 2px 5px black;
+  width: 450px;
+  padding-top: 20px;
+}
+}
